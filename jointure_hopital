@@ -1,0 +1,56 @@
+
+Select docteur.nom as docteur, patient.nom as patient, visite.date_visite as visite from ((docteur inner join patient on patient.id_pa=docteur.id_doc)
+inner join visite on visite.id_vi= docteur.id_doc) ;
+
+  docteur   |   patient   |   visite   
+------------+-------------+------------
+ Wendeline  | Derk        | 2021-08-11
+ Dov        | Elisabet    | 2021-04-10
+ Sarine     | Cilka       | 2021-09-12
+ Benjy      | Maurene     | 2021-11-12
+ Regan      | Gearalt     | 2022-07-01
+ Mathew     | Yvonne      | 2022-02-01
+ Lucas      | Carmine     | 2021-05-11
+ Arvin      | William     | 2021-04-08
+ Vyky       | Dore        | 2021-08-11
+ Ashien     | Niki        | 2021-12-07
+ Shaughn    | Flemming    | 2021-01-12
+ Brandea    | Minna       | 2021-03-09
+ Alena      | Anne-marie  | 2021-06-10
+ Candra     | Retha       | 2021-04-12
+ Meier      | Jarret      | 2021-06-29
+ Barrie     | Tillie      | 2021-12-04
+ Annelise   | Layne       | 2021-01-10
+ Annabela   | Seymour     | 2021-04-02
+ Milissent  | Ingeberg    | 2021-05-12
+ Bradly     | Ced         | 2021-03-10
+ Cyndi      | Katharine   | 2021-04-06
+ Opaline    | Jermayne    | 2021-09-09
+ Damian     | Tiphanie    | 2021-01-11
+ Rosamund   | Renell      | 2021-02-02
+ Dorotea    | Erma        | 2022-12-01
+ Minnnie    | Christopher | 2021-03-08
+ Neddy      | Tamma       | 2021-09-03
+ Patricia   | Alyse       | 2021-04-06
+ Jaine      | Tymon       | 2021-04-10
+ Zonnya     | Alisun      | 2021-01-04
+ Linn       | Morly       | 2022-06-01
+ Taryn      | Chrissy     | 2021-12-09
+ Rhiamon    | Kiah        | 2022-03-01
+ Ophelie    | Fernando    | 2021-07-03
+ Leisha     | Yank        | 2021-06-05
+ Morten     | Sigrid      | 2021-02-07
+ Kate       | Twyla       | 2021-12-09
+ Renelle    | Kayle       | 2021-03-01
+ Lief       | Allie       | 2021-04-04
+ Harlie     | Darell      | 2021-10-09
+ Tamiko     | Roda        | 2021-01-02
+ Stern      | Whitney     | 2021-02-08
+ Tova       | Verla       | 2021-01-06
+ Merrel     | Gavan       | 2021-02-10
+ Marylinda  | Arvy        | 2021-04-12
+ Skyler     | Remy        | 2021-03-07
+ Marylynne  | Eimile      | 2021-02-12
+ Kimmy      | Iggie       | 2021-03-05
+ Emmery     | Maia        | 2021-12-11
+
